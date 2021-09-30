@@ -4,40 +4,85 @@ body{
   font-family: 'Roboto', sans-serif; 
 }
 
-h1{
-    font-size: 37px;
-    font-weight: bold;
-    font-family: 'Roboto Slab', serif;
-    line-height: 101.38%;
-    width: 292px;
-}
 
-h2{
-  font-family: 'Roboto Slab', serif; 
-  font-size: 26px;
-  font-weight: bold;
-  width: 250px;
-}
-
-h3{
-   font-family:'Roboto', sans-serif;
-   font-size: 12px; 
-   font-weight: bold;
-   color: #1e4681;
-   padding: 0;
-   margin: 0;
-}
-
-h4{
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-}
 
 @media (max-width: 991px) {
 
+    header{
+        width: 308px;
+        margin:0 auto;
+    }
+    
+    .logo{
+        margin-top: 36px;
+        margin-left: 35px;
+        margin-bottom: 40px;
+    }
+    
+    h1{
+        font-size: 37px;
+        font-weight: bold;
+        font-family: 'Roboto Slab', serif;
+        line-height: 101.38%;
+        width: 292px;
+        margin-top: 0;
+    }
+    
+    h2{
+      font-family: 'Roboto Slab', serif; 
+      font-size: 26px;
+      font-weight: bold;
+      width: 250px;
+    }
+    
+    h3{
+       font-family:'Roboto', sans-serif;
+       font-size: 12px; 
+       font-weight: bold;
+       color: #1e4681;
+       padding: 0;
+       margin: 0;
+    }
+    
+    h4{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+
+.three-facts{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 0 0 35px;
+}   
+
+.three-facts__block-globe,
+.three-facts__block-watch,
+.three-facts__block-calendar{
+    display: flex;
+    gap:3px;
+    font-size: 10px;
+    width: 75px;
+    line-height: 115%;
+}
+
+.globe, .watch, .calendar{
+    width: 10px;
+    height: 10px;
+    padding: 0 ;
+    margin: 0;
+}
+
 .section-1{
-    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 278px;
+    padding-left: 35px;
+    padding-right: 5px;
+    margin: 20px auto 0;
 }
 
 .section-1__8-lessons{
@@ -45,31 +90,44 @@ h4{
     width: 212px;
 }
 
+.videooperator{
+    width: 141px;
+    height: 175px;
+    margin-top: 16px;
+    margin-bottom: 38px;
+    margin-left: auto;
+    
+}
+
 .section-1__quote{
+    display: flex;
+    flex-direction: column;
     color:white;
     background-color: #1e4681;
     border-radius: 2.33px;
     width: 225px;
-    height: 62px;
+    height: 73px;
     font-size: 11px;
     line-height: 14.3px;
     padding: 3px 8px 26px;
 }
 
 .tarkovskiy{
+    display: block;
     font-size: 10px;
     margin-left: auto;
+    line-height: 150%;
     
 }
 
 
 .section-2-wrapper{
-    margin-left: 35px;
-    margin-top: 40px;
-    width: 308px;
+    margin: 40px auto 0;
+    width: 273px;
     font-size: 12px;
     font-weight: 400;
     line-height: 150%;
+    padding-left: 35px;
 
 }
 
@@ -98,15 +156,23 @@ h4{
     gap:30px;
 }
 
-.section-3__wrapper{
+.section__3{
+    width: 308px;
     margin-left: 35px;
-    width: 170px;
+
+}
+
+.section-3__wrapper{
+    margin: 0 auto;
+    width: 308px;
+    padding-left: 35px;
 }   
 
 .section-3__info-block-1,
 .section-3__info-block-2,
 .section-3__info-block-3{
     padding: 5px 0;
+    width: 170px;
 }
 
 .section-3__text{
@@ -116,31 +182,35 @@ h4{
 }
 
 .section-4{
-    width: 340px;
+    width: 308px;
     font-size: 12px;
     line-height: 150%;
     padding: 5px 0;
-    margin-left: 35px;
-    margin-top: 40px;
-    
+    margin: 40px auto 0;
+}
+
+.section-4 h2{
+    margin: 0 auto 30px;
 }
 
 .section-6{
     background-color: #EFEFEF;
     margin:0;
     padding: 16px 0 20px 0;
-    width: 100%;
-    padding-left: 35px;
+    /*width: 100%;*/
+    
 }
 
 .section-6__wrapper{
-    width: 308px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0;
 
 }
 
 .section-6 h2{
-    margin-top: 42px;
+    margin: 30px auto 20px;
+
 }
 
 .section-6__feedback-autor-wrapper{
@@ -148,14 +218,24 @@ h4{
     gap:13px;
     padding: 13px 0 0 0;
     margin-bottom: 0;
+}
 
+.section-6__avatar{
+    width: 80px;
+    height: 84px;
+}
+
+.section-6__autor-name{
+    font-size: 14px;
+    font-family:'Roboto Slab', serif; 
+    font-weight: bold;
 }
 
 .section-6__content-card{
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    width: 308px;
+    width: 230px;
     height: 248px;
     padding: 20px;
     padding-bottom: 0px;
@@ -165,7 +245,6 @@ h4{
 .section-6__feedback-text{
     font-size: 10px;
 }
-
 
 
 .section-7{
@@ -181,6 +260,11 @@ h4{
     margin: 0 auto;
     padding-top: 35px;
     padding-bottom: 63px;
+}
+
+.section-7__h2{
+    display: block;
+    width: 220px;
 }
 
 .section-7__h5-price{
@@ -204,14 +288,14 @@ h4{
 .section-7__2-text-blocks-wrapper{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    /*gap: 10px;*/
     margin-top: 30px;
-    width: 310px;
+    width: 270px;
 }
 
 .section-7__text-block-1,
 .section-7__text-block-2{
-    width: 140px;
+    width: 130px;
     margin: 0;
     padding:0;
 }
