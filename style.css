@@ -14,6 +14,9 @@ body{
     }
     
     .logo{
+        display: flex;
+        width: 52.19px;
+        height: 30.75px;
         margin-top: 36px;
         margin-left: 35px;
         margin-bottom: 40px;
@@ -343,7 +346,6 @@ body{
 .section-7__2-text-blocks-wrapper{
     display: flex;
     justify-content: space-between;
-    /*gap: 10px;*/
     margin-top: 30px;
     width: 270px;
 }
@@ -427,6 +429,7 @@ footer{
     }
     
     .logo{
+        display: flex;
         margin-top: 22px;
         margin-bottom: 57px;
         width: 64.87px;
@@ -489,9 +492,9 @@ footer{
         height: 115px;
         font-size: 14px;
         line-height: 18.2px;
-        padding: 3px 8px 26px;
+        padding: 5px 15px 26px;
         font-family:'Roboto Slab', serif;
-        margin-left: 161px;
+        margin-left: 180px;
     }
     
     .tarkovskiy{
@@ -535,6 +538,7 @@ footer{
     }
 
     .video-machine{
+        display: flex;
         margin-top: 30px;
         width: 134.37px;
         height: 117.57px;
@@ -639,7 +643,7 @@ footer{
         flex-wrap: wrap;
         gap: 21.43px;
         width: 770px;
-        margin: 55px auto 53px;
+        margin: 55px auto 53px; 
         
     }
     
@@ -649,7 +653,6 @@ footer{
         box-sizing: border-box;
         box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
         border-radius: 13.9792px;
-        margin: 10px auto;
         padding-bottom: 10px;
     }
     
@@ -842,9 +845,478 @@ footer{
     .footer__copyright{
         font-size: 10px;
         padding-bottom: 22px;
-        color: white;
-        
+        color: white;   
     }
 
+}
+
+    /* версия для десктопного экрана больше 1280px шириной */
+@media(min-width: 1280px) {
+    
+    header{
+        width: 1000px;
+        margin:0 auto 30px;
+    }
+    
+    .logo{
+        position: relative;
+        top:32px;
+        
+        margin-bottom: 57px;
+        width: 112px;
+        height: 66px;
+    }
+    
+    h1{
+        font-size: 80px;
+        font-weight: bold;
+        font-family: 'Roboto Slab', serif;
+        line-height: 101.38%;
+        width: 628px;
+        margin: 0;
+    }
+
+    h2{
+        font-size: 55px;
+    }
+
+    .three-facts{
+        display: flex;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 115%;
+        width: 1000px;
+        gap:20px;
+    }
+
+    .globe, .watch, .calendar{
+        width: 22px;
+        height: 21px;
+    }
+
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        width: 1050px;
+        height: 750px;
+        padding-left: 35px;
+        padding-right: 5px;
+        margin: 60px auto 0;
+    }
+
+    .section-1__8-lessons{
+        font-size: 20px;
+        line-height: 150%;
+        width: 414px;
+        margin: 17 0 0;
+    }
+    
+    .videooperator{
+        position: relative;
+        top:-300px;
+        width: 305px;
+        height: 376px;
+        margin-top: 16px;
+        margin-bottom: 38px;
+        margin-left: auto;
+        
+    }
+    
+    .section-1__quote{
+        position: relative;
+        bottom: 240px;
+        left:300px;
+        display: flex;
+        flex-direction: column;
+        color:white;
+        background-color: #1e4681;
+        border-radius: 5px;
+        width: 483.63px;
+        height: 200px;
+        font-size: 25px;
+        line-height: 32,5px;
+        padding: 3px 8px 26px;
+        font-family:'Roboto Slab', serif;
+    }
+    
+    .tarkovskiy{
+        padding:0;
+        margin:0;
+        display: block;
+        font-size: 20px;
+        font-family:'Roboto';
+        margin-left: auto;
+        line-height: 130%;
+    }
+
+    .section-2-wrapper{
+        margin: 100px auto 0;
+        width: 1000px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 150%;
+        padding-left: 35px;
+    
+    }
+
+    .section-2__text-img-wrapper{
+        display: flex;
+        gap: 110px;
+    }
+    
+    .section-2__text-wrapper{
+        width: 662px;
+    }
+
+      
+    .videographer{
+        width: 314px;
+        height: 315px;
+        margin: 0 auto 30px;
+        margin-left: auto;
+    }
+
+    .video-machine{
+        margin-top: 30px;
+        width: 232px;
+        height: 203px;
+    }
+    
+    .section-2__video-machine__info-3-blocks-wrapper{
+        width: 1000px;
+        margin-top: 41px;
+        margin-bottom: 100px;
+        display: flex;
+        gap: 76px;
+    
+    }
+
+    .section-2__card__info-1,
+    .section-2__card__info-2,
+    .section-2__card__info-3{
+        width: 150px;
+        font-size: 18px;
+        line-height: 130%;
+    }
+    
+    .section-2__info-3-blocks{
+        margin: 30px 0 60px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:30px;
+    }
+    
+    .section-2__info-3-blocks h4{
+        font-size: 25px;
+    }
+
+    .section__3{
+        width: 1000px;
+        margin-left: 35px;
+    
+    }
+    
+    .section-3__wrapper{
+        margin: 0 auto;
+        width: 1000px;
+        padding-left: 35px;
+    }   
+    
+    .section-3__3-info-blocks{
+        display: flex;
+        gap:50px;
+        margin-bottom: 103px;
+    }
+
+    .section-3__info-block-1,
+    .section-3__info-block-2,
+    .section-3__info-block-3{
+        padding: 5px 0;
+        width: 270px;
+    }
+    
+    .section-3__3-info-blocks h3{
+        font-size: 25px;
+        line-height: 130%;
+        color: #1e4681;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+
+    .section-3__text{
+        font-size: 18px;
+        line-height: 130%;
+        padding: 0;
+    }
+
+    .section-4{
+        width: 1000px;
+        font-size: 24px;
+        line-height: 150%;
+        padding: 5px 0 0 35px;
+        margin: 40px auto 130px;
+    }
+
+    .section-4 ul{
+        width: 662px;
+    }
+    
+    .section-5 {
+        width: 100%;
+        margin-bottom: 47px;
+    }
+    
+    .section-5 h2{
+        position: relative;
+        left: 12%;
+        margin: 10px auto 30px;
+        width: 100%;
+    }
+    
+    .section-5__8-program-cards-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 21.43px;
+        width: 88%;
+        margin: 55px auto 53px; 
+        
+        
+    }
+    
+    .section-5__program-card {
+        width: 399px;
+        height: 328px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        /* margin: 10px auto; */
+        padding-bottom: 10px;
+    }
+    
+    .s5__card__img{
+        width: 399px;
+        height: 160px;
+    }
+    
+    .s5__card__text-wrapper{
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+    }
+    
+    .s5__card__h4{
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+    }
+    
+    .s5__card__text{
+        margin-left: 10px;
+        font-family: Roboto;
+        font-size: 25px;
+        line-height: 130%;
+        /* margin-bottom: 10px; */
+    }
+
+    .s5__card__text-8{
+        position: relative;
+        bottom: 20px;
+    }
+
+    .section-6{
+        box-sizing: border-box;
+        background-color: #EFEFEF;
+        height: 780px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .section-6__wrapper{
+        padding-bottom: 0;
+        padding-top: 52px;
+        width: 900px;
+        height: 780px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .section-6__content-card{
+        width: 791px;
+        height: 451px;
+        font-size: 20px;
+        line-height: 150%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: white;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+    }
+
+    .section-6__feedback-autor-wrapper{
+        display: flex;
+        gap:17px;
+    }
+
+    .section-6__feedback-text{
+        width: 700px;
+    }
+
+    .section-6__avatar{
+        width: 190px;
+        height: 169px;
+    }
+
+    .section-6__autor-name{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 101.38%;
+    }
+
+    .section-6__autor-fb{
+        width: 32px;
+        height: 31px;
+    }
+
+    .section-7 {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background: #9DC9C8;
+    }
+
+    .section-7__content-wrapper{
+        width: 900px;
+        margin: 0 auto;
+        padding-top:103px;
+        padding-bottom: 107px;
+        box-sizing: border-box;
+    }
+
+    .section-7__h5-price{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 101.38%;
+    }
+
+    .section-7__price{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 101.38%;
+    }
+
+    .section-7__2-text-blocks-wrapper{
+        display: flex;
+        gap:50px;
+    }
+
+    .section-7__text-block-1{
+        width: 294px;
+    }
+
+    .section-7__text-block-2{
+        width: 294px;
+    }
+
+    .section-7__h5{
+        font-size: 25px;
+        line-height: 101.38%;
+    }
+
+    .section-7__text{
+        font-size: 18px;
+        line-height: 101.38%;
+
+    }
+    
+    footer{
+        background-color: black;
+    }
+
+    .footer__content-wrapper{
+        color: white;
+        width: 900px;
+        height: 390px;
+        padding-top: 50px;
+        margin: 0 auto;
+        display: flex;
+        gap:400px;
+        box-sizing: border-box;
+    }
+
+    .footer-logo{
+        width: 115px;
+        height: 68px;
+    }
+
+    .footer__social-links-wrapper{
+        position: relative;
+        top: 30px;
+        display: flex;
+        width: 170px;
+        gap: 10px;
+        margin-top:17px;
+    }
+
+    .footer__social-logos{
+        width: 35px;
+        height: 35px;
+    }
+    
+    .footer__telephone-block,
+    .footer__mail-block{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap:10px;
+        font-size: 25px;
+        box-sizing: border-box;
+    }
+
+    .footer__telephone-icon{
+        position: relative;
+        top:12px;
+        width: 27px;
+        height: 27px;
+    }
+
+    .footer__mail-icon{
+        position: relative;
+        top:12px;
+        width: 27px;
+        height: 18px;
+    }
+
+    .footer__telephone-number,
+    .footer__mail-adress{
+        margin: 0;
+        padding:5px;
+    }
+
+    .footer__copyright-wrapper{
+        width: 900px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .footer__copyright{
+        font-size: 18px;
+        padding-bottom: 23px;
+        color: white;   
+    }
+
+    
+   
+  
 
 }
