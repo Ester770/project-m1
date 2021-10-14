@@ -253,7 +253,7 @@ body{
 
 .section-6{
     background-color: #EFEFEF;
-    margin:0;
+    /* margin:0; */
     padding: 16px 0 20px 0;
     width: 100%;
     
@@ -339,7 +339,7 @@ body{
 
 .section-7__h5{
     font-size: 12px;
-    margin:0 0 5 0;
+    margin:0 0 5px 0;
     padding:0;
 }
 
@@ -668,7 +668,7 @@ footer{
     }
     
     .s5__card__h4{
-        font-family: 17px;
+        font-size: 17px;
         margin: 0;
         padding: 0;
         margin-left: 10px;
@@ -910,7 +910,7 @@ footer{
         font-size: 20px;
         line-height: 150%;
         width: 414px;
-        margin: 17 0 0;
+        margin: 17px 0 0;
     }
     
     .videooperator{
@@ -936,7 +936,7 @@ footer{
         width: 483.63px;
         height: 200px;
         font-size: 25px;
-        line-height: 32,5px;
+        line-height: 130%;
         padding: 3px 8px 26px;
         font-family:'Roboto Slab', serif;
     }
