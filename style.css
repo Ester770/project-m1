@@ -2,6 +2,9 @@
 
 body{
   font-family: 'Roboto', sans-serif; 
+  width: 100%;
+  margin:0;
+  padding:0;
 }
 
 
@@ -203,7 +206,7 @@ body{
 .section-5 {
     display: block;
     width: 100%;
-    margin-bottom: 47px;
+    padding-bottom: 47px;
 }
 
 .section-5 h2{
@@ -253,22 +256,17 @@ body{
 
 .section-6{
     background-color: #EFEFEF;
-    /* margin:0; */
     padding: 16px 0 20px 0;
     width: 100%;
-    
+    margin: 0;
 }
 
 .section-6__wrapper{
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
-
 }
 
 .section-6 h2{
     margin: 30px auto 20px;
-
 }
 
 .section-6__feedback-autor-wrapper{
@@ -304,13 +302,13 @@ body{
     font-size: 10px;
 }
 
-
 .section-7{
     background-color: #9DC9C8;
     margin:0;
     padding:0;
     width: 100%;
     padding-left: 35px;
+    box-sizing: border-box;
 }
 
 .section-7__content-wrapper{
@@ -370,6 +368,7 @@ footer{
     padding-left: 35px;
     padding-bottom: 10px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .footer__content-wrapper{
@@ -421,7 +420,6 @@ footer{
 
 /* версия для планшетов от 992 пикселей до 1279 пискелей шириной */
 @media (min-width: 992px) and (max-width:1279px)  {
-
 
     header{
         width: 670px;
@@ -514,10 +512,6 @@ footer{
         line-height: 150%;
         padding-left: 35px;
     
-    }
-
-    .section-2 h2{
-        font-size: 32px;
     }
 
     .section-2__text-img-wrapper{
@@ -851,7 +845,13 @@ footer{
 }
 
     /* версия для десктопного экрана больше 1280px шириной */
-@media(min-width: 1280px) {
+
+@media (min-width: 1280px) {
+
+    body{
+        width: 100%;
+        margin: 0;
+    }
     
     header{
         width: 1000px;
@@ -861,7 +861,6 @@ footer{
     .logo{
         position: relative;
         top:32px;
-        
         margin-bottom: 57px;
         width: 112px;
         height: 66px;
@@ -1241,6 +1240,7 @@ footer{
     
     footer{
         background-color: black;
+        width: 100%;
     }
 
     .footer__content-wrapper{
@@ -1314,9 +1314,7 @@ footer{
         padding-bottom: 23px;
         color: white;   
     }
-
-    
-   
+ 
   
 
 }
